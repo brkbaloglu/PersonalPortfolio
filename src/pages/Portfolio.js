@@ -144,6 +144,22 @@ function Portfolio() {
           <img className='w-[600px]' src="https://i.hizliresim.com/lce4n8c.png" alt="" />
         </div>
 
+        <div className='flex items-center justify-center mt-20'>
+        <img className='w-[600px]' src="https://i.hizliresim.com/m69g4zy.png" alt="" />
+          <div className='ml-8 text-center'>
+            <h3 className='text text-2xl font-bold text-white mb-10'>Car Selling Website</h3>
+            <p>Car Selling website using React, TailwindCss</p>
+            <div className='flex items-center justify-center my-4'>
+            <BiLogoReact size={40} className='mx-2 bg-white text-blue-300'/>
+            <BiLogoTailwindCss size={40} className='mx-2 bg-white text-blue-300'/>
+            </div>
+            <div className='flex items-center text-black border-2 border-black rounded-xl w-[150px] p-2 hover:bg-black hover:text-white duration-300'>
+              <p>Code here:</p>
+              <Link to="https://github.com/brkbaloglu/CarSelling" ><AiFillGithub size={30} className='ml-4'/></Link>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
