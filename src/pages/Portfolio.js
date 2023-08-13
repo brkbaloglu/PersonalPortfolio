@@ -6,7 +6,7 @@ import { SiMysql} from 'react-icons/si'
 import { Link } from 'react-router-dom'
 function Portfolio() {
   return (
-    <div className='mx-20 my-20'>
+    <div className='mx-20 my-10'>
       <h3 className='text text-white font-bold text-6xl text-center'>My Portfolio</h3>
       <div>
         <div className='flex items-center justify-center mt-20'>
